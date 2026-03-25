@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind Css CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <a href="index.html"></a>
+</head>
+
+<body class="bg-gradient-to-b from-green-50 to-white">
+    <!--Responsive navebar-->
+    <nav class="bg-green-100  px-6 py-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <a href="index.html" class="flex items-center gap-2">
+            <img src="./images/logo.png.jpeg" alt="Greenden logo" class="h-20">
+            <h1 class="text-lg font-semibold">Greenden</h1>
+            </a>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="flex gap-6 text-sm text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black " href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Header section-->
+    <section class="text-3xl font-bold mt-5 text-center">
+        <div>
+            <h1>Our Products</h1>
+            <input type="text" placeholder="Search for Products"
+                class="w-full max-w-4xl border border-gray-400 rounded px-3 py-1 text-sm">
+        </div>
+    </section>
+
+    <!--Best seller-->
+    <section class="p-4 text-center cursor-pointer">
+
+        <div class=" relative grid grid-cols-2 md:grid-cols-4 mt-5 gap-5 ">
+            <div>
+                <img src="./images/bestseller_1.png" class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Sunflower</h1>
+                <p class="text-green-600 font-semibold mt-1">$10 - $30</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_2.png" class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Lily</h1>
+                <p class="text-green-600 font-semibold mt-1">$2.5 - $5</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_3.png" class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Zinna</h1>
+                <p class="text-green-600 font-semibold mt-1">$0.3 - $3.5</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_4.png" class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Tulip</h1>
+                <p class="text-green-600 font-semibold mt-1">$2 - $4</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+            <div>
+                <img src="./images/bestseller_5.png" class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Rose</h1>
+                <p class="text-green-600 font-semibold mt-1">$10 - $20</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_6.png" class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Orchid</h1>
+                <p class="text-green-600 font-semibold mt-1">$15 - $35</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_7.png"class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Jasmine</h1>
+                <p class="text-green-600 font-semibold mt-1">$5 - $15</p>
+            </div>
+
+            <div>
+                <img src="./images/bestseller_8.png" class="w-48 h-64 object-cover mx-auto rounded-lg block transform hover:scale-105 transition duration-300"
+                    alt="flowers">
+                <h1>Lavender</h1>
+                <p class="text-green-600 font-semibold mt-1">$14 - $27</p>
+                <button></button>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Greenden brings nature closer to your home with fresh, beautiful plants that create a peaceful and lively
+            space</p>
+        <p>@ 2026 Greenden.All rights reserved</p>
+        <p>Made with 🌿 for plant lovers.</p>
+    </section>
+
+</body>

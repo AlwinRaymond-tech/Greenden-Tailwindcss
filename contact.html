@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Greenden</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-200 text-gray-800">
+
+    <!-- Navbar -->
+    <!--Responsive navebar-->
+    <nav class="bg-green-100  px-6 py-2 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        
+            <a href="index.html" class="flex items-center gap-2">
+            <img src="./images/logo.png.jpeg" alt="Greenden logo" class="h-20">
+            <h1 class="text-lg font-semibold">Greenden</h1>
+            </a>
+
+
+        
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="flex gap-6 text-sm text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black " href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="text-center px-6 py-12">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Contact Us</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+            We would love to hear from you. Reach out for plant orders, product details, or any help you need.
+        </p>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="max-w-6xl mx-auto px-6 pb-16">
+        <div class="grid md:grid-cols-2 gap-10 items-start">
+
+            <!-- Left side -->
+            <div class="bg-white rounded-2xl shadow-md p-8">
+                <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+
+                <div class="space-y-5">
+                    <div class="border border-green-100 rounded-xl p-4">
+                        <h4 class="font-semibold text-lg">Address</h4>
+                        <p class="text-gray-600 mt-1">123 Green Street, Tanjore, Tamil Nadu</p>
+                    </div>
+
+                    <div class="border border-green-100 rounded-xl p-4">
+                        <h4 class="font-semibold text-lg">Phone</h4>
+                        <p class="text-gray-600 mt-1">+91 98765 43210</p>
+                    </div>
+
+                    <div class="border border-green-100 rounded-xl p-4">
+                        <h4 class="font-semibold text-lg">Email</h4>
+                        <p class="text-gray-600 mt-1">support@greenden.com</p>
+                    </div>
+
+                    <div class="border border-green-100 rounded-xl p-4">
+                        <h4 class="font-semibold text-lg">Working Hours</h4>
+                        <p class="text-gray-600 mt-1">Mon - Sat : 9:00 AM - 7:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right side form -->
+            <div class="bg-white rounded-2xl shadow-md p-8">
+                <h3 class="text-2xl font-bold mb-6">Send a Message</h3>
+
+                <form class="space-y-5">
+                    <div>
+                        <label class="block mb-2 font-medium">Your Name</label>
+                        <input type="text" placeholder="Enter your name"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-300" />
+                    </div>
+
+                    <div>
+                        <label class="block mb-2 font-medium">Your Email</label>
+                        <input type="email" placeholder="Enter your email"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-300" />
+                    </div>
+
+                    <div>
+                        <label class="block mb-2 font-medium">Subject</label>
+                        <input type="text" placeholder="Enter subject"
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none focus:ring-2 focus:ring-green-300" />
+                    </div>
+
+                    <div>
+                        <label class="block mb-2 font-medium">Message</label>
+                        <textarea rows="5" placeholder="Write your message..."
+                            class="w-full border border-gray-300 rounded-lg px-4 py-3 outline-none resize-none focus:ring-2 focus:ring-green-300"></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition">Send
+                        Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-100 text-center py-5 text-gray-700">
+        <p>© 2026 Greenden. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
